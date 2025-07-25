@@ -17,11 +17,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Copy JSON files into docs/
+      - name: none Jekill
         run: |
-          mkdir -p docs
-          cp modl_versions_21.json docs/
-          cp diff_api_21.json docs/
           touch docs/.nojekyll
 
       - name: Commit and push to main
