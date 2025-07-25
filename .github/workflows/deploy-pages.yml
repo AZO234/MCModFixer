@@ -20,7 +20,7 @@ jobs:
       - name: Copy JSON files into docs/
         run: |
           mkdir -p docs
-          cp modl_version_21.json docs/
+          cp modl_versions_21.json docs/
           cp diff_api_21.json docs/
           touch docs/.nojekyll
 
