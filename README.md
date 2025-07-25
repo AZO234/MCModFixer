@@ -1,5 +1,5 @@
 # MCModFixer
-Normalilse API for Minecraft mod common cording.
+Normalilse API for Minecraft mod common cording.  
 マインクラフトmodで共通コーディングのためのAPI平滑化。
 
 ## English

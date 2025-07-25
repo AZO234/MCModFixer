@@ -17,6 +17,9 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
+      - name: Disable Jekyll (add .nojekyll)
+        run: touch docs/.nojekyll
+
       - name: Copy JSON files to docs/
         run: |
           mkdir -p docs
